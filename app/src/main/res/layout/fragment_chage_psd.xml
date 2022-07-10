@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b6f2e8e8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_old_mi"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_bg"
+            android:hint="   旧密码" />
+
+        <EditText
+
+            android:id="@+id/edit_new_mi"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_bg"
+            android:hint="   新密码" />
+
+        <EditText
+            android:id="@+id/edit_new_remi"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_bg"
+            android:hint="   再次输入新密码" />
+
+        <CheckBox
+            android:id="@+id/che_mima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="显示密码" />
+
+        <Button
+            android:id="@+id/btn_mi_queren"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="确认"
+            android:textColor="#fffafa"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\demo\\aa2\\MyApplication2\\sliding_menu\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\demo\\aa2\\MyApplication2\\sliding_menu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "14",
+                        "startColumns": "4",
+                        "startOffsets": "1092",
+                        "endColumns": "42",
+                        "endOffsets": "1130"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\cccccccccccccccc\\MyApplication2\\sliding_menu\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\cccccccccccccccc\\MyApplication2\\sliding_menu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "14",
+                        "startColumns": "4",
+                        "startOffsets": "1092",
+                        "endColumns": "42",
+                        "endOffsets": "1130"
+                    }
+                }
+            ]
+        }
+    ]
+}

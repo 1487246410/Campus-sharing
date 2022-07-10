@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jobbj"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#4e9ecc"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/a_fanhui" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="22.5dp"
+                android:text="招聘兼职"
+                android:textColor="#fff"
+                android:textSize="30dp" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:text="周末兼职"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:textColor="#071156"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="酬  金："
+            android:textSize="22sp" />
+
+        <TextView
+            android:textSize="22dp"
+            android:textColor="#f23f57"
+            android:text="   120元"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:textColor="#071156"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="性别要求 :"
+            android:textSize="22sp" />
+
+        <TextView
+            android:textColor="#151515"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="   男女不限"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:textColor="#071156"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="需求人数："
+            android:textSize="22sp" />
+
+        <TextView
+            android:textSize="20sp"
+            android:text="  1人"
+            android:textColor="#151515"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:textColor="#071156"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="工作地点："
+            android:textSize="22sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_idea"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:lines="2"
+                android:text="        山西省太原市徐沟县山西警察学院校园超市内"
+                android:textColor="#0e0e0e"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tv_idea"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="5dp"
+                android:text="查看位置"
+                android:textColor="#76781d"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:textColor="#071156"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="工作内容："
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:text="     招聘周末兼职，学校超市水果摊。"
+            android:textColor="#000"
+            android:textSize="22dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/tv_nname"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:text="洪先生"
+            android:textColor="#071156"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:text="13893818357"
+            android:textColor="#071156"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_bt"
+        android:gravity="center"
+        android:text="报名"
+        android:textColor="#fff"
+        android:textSize="30sp"></Button>
+</LinearLayout>

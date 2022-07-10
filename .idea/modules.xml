@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Campus_Code.iml" filepath="$PROJECT_DIR$/.idea/modules/Campus_Code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Campus_Code.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Campus_Code.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sliding_menu/Campus_Code.sliding_menu.iml" filepath="$PROJECT_DIR$/.idea/modules/sliding_menu/Campus_Code.sliding_menu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tabpagerindictor/Campus_Code.tabpagerindictor.iml" filepath="$PROJECT_DIR$/.idea/modules/tabpagerindictor/Campus_Code.tabpagerindictor.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,430 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f4f1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#4e9ecc"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+
+            android:id="@+id/a_fanhui"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/a_fanhui" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="创业艰难，该如何坚持下去..."
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text=" 创业艰难，该如何坚持下去？"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:text="某某某      2017-12-30  "
+                android:textColor="#878383"
+                android:textSize="13dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="40dp"
+                    android:text="   创业不是闹着玩，不是秀底裤，不是炫耀贴，不是深夜食堂。而是热情下的冷静，自嗨下的理性，平常心下的坚持。"
+                    android:textColor="#605f5f"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="1． 谁在误导我们"
+                    android:textColor="#292828"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/chuangye4" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text="  绝大多数人都是在工作几年后，萌生创业的年头，进过多年的积累，信心满满的投入市场，却遍体鳞伤的被冲上岸边。而哪些学历不高，毕业出来后找不到好的饭碗，被迫创业的人，往往能够成功打出一片自己的天地。这是为啥？
+
+  因为创业者会犯3个无法避免的纠结，专业技术，创业经验，入门资金。无法配平这3个要素、创业者会把自己导入了错误的开始。"
+                    android:textColor="#605f5f"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="2． 创业经验"
+                    android:textColor="#292828"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/chuangye2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text="  创业经验是只能在实践中慢慢摸索的，所以创业者只能从最底层，如个体户，小饭店，皮包公司做起，慢慢积累经验。没有一家商学院能培养出一家跨国公司的创业者，他们最多培养出跨国公司的初级管理者。
+
+  一个IT或者金融公司的中高层，怀有丰富的知识和管理经验，但让他们创立一个100人的大饭店，其竞争力绝不会有一个高中肆业的，经营过10人小餐厅的小业主强。而让他们自己创立一家IT或金融公司却又会遇到资金的问题。"
+                    android:textColor="#605f5f"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="3． 资金是个入门问题"
+                    android:textColor="#292828"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/chuangye3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text="  纠结与项目的创业者，实质是一个入门资金的问题，创业的资金只宝贵决定着创业者最终能走多远。一般个人创业者能凑出的起动资金在10～30万左右，这个太少，所以会有合伙制度，2个人能凑出60万的话，就能有个较宽广的起步空间。当然这是指无产阶级创业者。
+
+  由于创业的魅力，市场上实质的创业参与者很多，所以10W～30W起步的小本生意，很快饱和，开个小餐厅，开个服装店，开个理发店这种适合10～30W投资的项目之饱和度，使得这些领域缺乏吸引力，而更高一级的未饱和项目却需要较大的入门资金，这就导致了很多人无法进入。这对有实力的资产阶级创业者是一道很不错的屏障。但对我们这样的普通人是一个残酷的现实。
+
+  于是很多人满怀热情寻找者合适的项目，其实是在寻找和自己资金匹配的项目。
+"
+                    android:textColor="#605f5f"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="4． 专业技术"
+                    android:textColor="#292828"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/chuangye1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text="  每个人都有资金的专业实力，有创业想法的人多是专业水平很不错的人，他们觉得预期用自己的技术为老板服务，不如为自己服务。
+
+  怀着这个错觉的创业起步者，是失败最多的，因为，对创业来说，创业经验和资金必须配合你的专业技术。而往往，后2者是很难与自己的技术匹配的，你的技术越好，技术经验越丰富，你的创业经验和资金就越跟不上你的技术实力。"
+                    android:textColor="#605f5f"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="5． 一步一步爬楼梯"
+                    android:textColor="#292828"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/chuangye5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text="  了解了创业的3要素后，我们就应该知道，创业是需要平衡个项指标后，才会开门成功的。
+
+木桶的容积取决与你最短的那款板。
+
+  如果你是一个汽车工程师，你只有10万存款，那你之能从一家小饭店起步，等你存到了30W，你可以开已经汽车修理行，等你存够了50W
+
+，你能成立已经汽车配件贸易代理皮包公司，等你存够了100W，你可以开家小的起配制造厂。
+
+你无法跳过其中的任何一环，即使你作为一个优秀的工程师，你贷款了100W，你也不能一开始就开汽车配件厂，这样同样是失败。何况无产者融资100W是不可能的。你没有这种一步登天的信用。
+
+从以上事例，大家应该能看出，为何有才能的人，会迟迟不能动手创业。一个高级工程师，一个Banking accessory，一个IT。他们是不肖与从小卖部开始创业的。 他们几个高手凑在一起，拿出辛苦存下的钱，自己推举个年纪大的做经理，就开始创业了。这种经典模式是重技术，轻创业经验的脚重头轻的模式。100％失败。
+
+那些手握大笔资金，拥有丰富创业经验，但轻视技术，依然投入内需服务业等看似没什么技术含量的领域，自己下去瞎指导，同样结果是头重脚轻，80％失败。
+
+而最最最最普遍的创业企划，可谓悲剧中的悲剧。 一群高级知识分子，来自五湖四海，拼命凑起了一笔不大的资金，进入一个没有人涉足过的看似没有什么技术含量的行业。然后在大家的争吵声中不欢而撒。
+
+创业经验，专业技术，资金3者必须配平方可起步，然后像走楼梯一样一步一步，成功只有这条路，没有捷径。
+
+  你是一个IT高手，但只有30万存款，没有创业经验。
+
+  你唯一能取胜的模式就是拿出15万本钱，开个皮包工作室，雇佣1个人，一步一步把公司作大。"
+                    android:textColor="#605f5f"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="6． 创业是否盈利"
+                    android:textColor="#292828"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/chuangye6" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text="  以下介绍一个创业的财务明细，让大家更感性的了解一下创业的利润，希望大家拥有的热情投入自己真正感觉值得的地方：
+
+开一家民工幼儿员
+
+收入：
+
+创立集资 150w
+
+预计招收100名学生，月收费1500元（很高了）
+
+月入15W
+
+支出：
+
+容纳的100人的乡下小房子，1500平，带草场。
+
+月租金15000元
+
+20个孩子一班，5个教师，月薪4000元*1.21*5=24200元
+
+一个院长8000 *1.21= 9680元
+
+2个生活老师 2200* 2 =4400元
+
+100个孩子1月伙食费 30000元
+
+水电煤 10000元一月
+
+月总支出93280元
+
+固定支出：
+
+装修＋家具＋校车＝100W
+
+每月盈余56720元，一年盈利510480元。税收17％，税后423698.4元
+
+校舍每3年需装修一次，每年需要装备年金15w。
+
+实际利润273698.4元。
+
+年投资回报率18.24％
+
+这还是各项指标都配平后的创业业绩。
+
+罗教授的意思是创业能存活的其实都是找不到啥好工作的，学历不高的，不过的确是，创业除了开出特别成功的公司的，或者是有背景的公司的，基本都是被逼无奈，这点是不错的。因为知道自己有很大的短处，比如逻辑分析能力很低，智商很低，所以才会比较努力的弥补，打一份工天
+
+资好的人可以在里面充分把握机会，但是天资不好的人可能很容易混不下去，而自己开公司即使犯了很多原则性的错误，很多时候还不致毙命。所以我一直觉得天分好的人应该在最好的公司里面打工，拼命搏击，而天分不好的人适合在社会游走，普遍撒网。。。
+
+照我看
+
+这个叫
+
+课后自习所，100万，按半年计算投入即可
+
+一上来就铺开4--8个点，约针对市区内10--20所小学，每个点可以容纳10--20人，
+
+按3房公寓计算，20人基本极限
+
+会员费制度，单接送管点心可以参照保姆按小时收费15每小时
+
+或者统一加辅导，按家教计费，30每小时
+
+营收就算得出来了
+
+问题来了，中间环节怎么增收？
+
+有什么可以加？
+
+解决不了，上不去流水
+
+1）一个班配一个老师是不够的，还有司机等费用
+
+2）广告、年检、应付主管部门等费用还没算
+
+3）奖金没有算入，逢年过节不能视而不见"
+                    android:textColor="#605f5f"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="意见反馈"
+                android:textColor="#292828"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+    <!--android:entries="@array/share_type">-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="bottom"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="共享类型:"
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_lx"
+                            android:layout_width="150dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="40dp">
+                        </Spinner>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#8e807a7a" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:gravity="bottom"
+                    android:orientation="vertical">
+
+                    <!--                    <ImageButton-->
+<!--                        android:id="@+id/imagebut"-->
+<!--                        android:layout_width="65dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginBottom="10dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:background="@drawable/shangchuanzhaopian"-->
+<!--                        android:numColumns="auto_fit" />-->
+
+
+                    <EditText
+                        android:id="@+id/et_share_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:background="@null"
+                        android:gravity="top"
+                        android:hint="详细信息及图片添加"
+                        android:padding="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#807c7c"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#8e807a7a" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="bottom"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="共享价格:"
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/et_share_price"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:background="@null"
+                            android:digits="1234567890."
+                            android:hint="  价格"
+                            android:maxLength="3"
+                            android:textColor="#d67331"
+                            android:textColorHint="#807c7c"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="元/天"
+                            android:textColor="#000"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:textColorHint="#5b5858" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="bottom"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="押金要求:"
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/et_share_pledge"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:background="@null"
+                            android:digits="1234567890"
+                            android:hint="  押金"
+                            android:maxLength="4"
+                            android:textColor="#d67331"
+                            android:textColorHint="#807c7c"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="元"
+                            android:textColor="#000"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#8e807a7a" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="bottom"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="手机号码:"
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/et_share_phone"
+                            android:layout_width="160dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:background="@null"
+                            android:hint="  请输入您的手机号"
+                            android:inputType="number"
+                            android:textColor="#000"
+                            android:textColorHint="#807c7c"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#8e807a7a" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="bottom"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="共享时间:"
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/et_share_time"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:background="@null"
+                            android:hint="  时间"
+                            android:inputType="number"
+                            android:textColor="#000"
+                            android:textColorHint="#807c7c"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="天"
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#8e807a7a" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="bottom"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="详细地址:"
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/et_share_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="40dp"
+                            android:background="@null"
+                            android:hint="  请输入详细地址"
+                            android:textColor="#000"
+                            android:textColorHint="#807c7c"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#8e807a7a" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_share_publish"
+                android:layout_width="300dp"
+                android:layout_height="40sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/shape_bt"
+                android:text="确定"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

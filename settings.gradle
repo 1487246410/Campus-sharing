@@ -1,0 +1,2 @@
+include ':app', ':tabpagerindictor'
+include ':sliding_menu'

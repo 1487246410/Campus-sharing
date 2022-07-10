@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AS_CODE/Campus_Code/app/src/main/res/drawable/lunbo_true.xml" value="0.265625" />
+        <entry key="..\:/AS_CODE/Campus_Code/app/src/main/res/layout/activity_center.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/Campus_Code/app/src/main/res/layout/activity_denglu.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/Campus_Code/app/src/main/res/layout/activity_gongxiang1.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/Campus_Code/app/src/main/res/layout/activity_login.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/Campus_Code/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/Campus_Code/app/src/main/res/layout/activity_retrieve.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/Campus_Code/app/src/main/res/layout/fragment_help.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/Campus_Code/app/src/main/res/layout/fragment_home.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/Campus_Code/app/src/main/res/layout/fragment_my_kechneg.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/Campus_Code/app/src/main/res/layout/fragment_my_setting.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/Campus_Code/app/src/main/res/layout/item_help.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/Campus_Code/app/src/main/res/layout/leftmenu.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/Campus_Code/app/src/main/res/layout/lunbo_one.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/Campus_Code/app/src/main/res/layout/menu_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/Campus_Code/app/src/main/res/layout/share_particulars2.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/Campus_Code/app/src/main/res/layout/view_share1.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/Campus_Code/app/src/main/res/layout/view_share2.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/drawable/btn.xml" value="0.265625" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/drawable/lunbo_no.xml" value="0.265625" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/drawable/lunbo_true.xml" value="0.265625" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/drawable/shape_bt.xml" value="0.265625" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/activity_center.xml" value="0.1265625" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/activity_denglu.xml" value="0.1265625" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/activity_fabu.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/activity_gongxiang1.xml" value="0.536" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/activity_login.xml" value="0.1265625" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.30412698412698413" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/activity_retrieve.xml" value="0.1265625" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/activity_san_ping.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/activity_second.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/activity_test1.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/activity_test2.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/afragment.xml" value="0.264" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/bfragment.xml" value="0.264" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/ceshi.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/dialog_layout2.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/dialog_layout4.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/dialog_qrcode.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/fragment_a.xml" value="0.1500156592546195" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/fragment_b.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/fragment_c.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/fragment_chage_psd.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/fragment_help.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/fragment_home.xml" value="0.176" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/fragment_home_aa.xml" value="0.1265625" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/fragment_my_grade.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/fragment_my_information.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/fragment_my_kechneg.xml" value="0.264" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/fragment_my_setting.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/fragment_my_sign.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/fragment_my_trends.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/fragment_mymessage.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/fragment_nickname.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/head_custom_listview.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/item_help.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/layout_job1.xml" value="0.4" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/layout_job2.xml" value="0.4" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/layout_job3.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/leftmenu.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/lunbo_one.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/lunbo_three.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/lunbo_two.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/menu_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/myshoucang.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/share_particulars.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/share_particulars2.xml" value="0.24947916666666667" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/view_share1.xml" value="0.1" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/view_share2.xml" value="0.536" />
+        <entry key="..\:/AS_CODE/MyApplication2/app/src/main/res/layout/view_share3.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

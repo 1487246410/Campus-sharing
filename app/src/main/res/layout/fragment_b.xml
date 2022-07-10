@@ -1,0 +1,318 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f4f1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#4e9ecc"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+
+            android:id="@+id/b_fanhui"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/a_fanhui" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="我就不合群了，你们去..."
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="我就不合群了,你们去堕落吧!"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:text="某某某      2017-12-30  "
+                android:textColor="#878383"
+                android:textSize="13dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="40dp"
+                    android:text="   我为了所谓的合群，违背自己的内心去和她们继续挥霍大学时光以及父母的血汗钱。"
+                    android:textColor="#605f5f"
+                    android:textSize="15dp" />
+
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/zixun2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="-01-"
+                    android:textColor="#292828"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text="我是一个来自农村的孩子，刚来到大学时，总是有点自卑。所以我和寝室另外五个来自城市里的姑娘相处，总是充当老好人的角色。
+
+我妈妈是传统的农村妇女，她从小告诉我，做人要善良，要帮助困难的人。
+
+因此，寝室里每天总是有一两个人，总是以各种理由让我帮她们打水，但我都任劳任怨的替她们打好。
+
+她们说，每节课六个人要一起坐在后面，后面老师管不着，必须要一起，这样体现寝室的团结。
+
+后来，有一个女孩子就似乎养成了习惯，水壶里没水了，就问我“今天怎么没有打水呢”，当时我觉得特别委屈，想哭，觉得妈妈骗了我。
+
+她们经常到了周末，就发动全寝室去KTV。有时候甚至逃课去新开的饭店吃夜宵，晚上还要去看电影，经常折腾整晚，所以第二天基本都是睡到中午才起床。
+
+我拿着父母的血汗钱，在大学不学习，每天吃喝玩乐，可他们连新衣服都舍不得买，我感到特别内疚。
+
+可是只要我说一句不行，她们便会群起而攻之，说我不合群，不团结，大家都去，就我一个人搞特殊。"
+                    android:textColor="#605f5f"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="  我为了所谓的合群，违背自己的内心去和她们继续挥霍大学时光以及父母的血汗钱。"
+                    android:textColor="#292828"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:text="-02-"
+                    android:textColor="#292828"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text="  有一次暑假返校，我带了妈妈亲手做的特产，在火车上我也小心翼翼地背着，想带给寝室同学吃。
+
+  到校后分给她们，她们也把自己的东西分给我吃，我吃得特别开心。可是当我转身走到寝室门口，听到她们在里面嘀咕，说我带的特产难吃死了，一看就是便宜货，有一个同学甚至偷偷丢掉了。
+
+  这时我才知道，妈妈说错了，原来不是每个人都会感激你对她的好，有些人，会当成理所当然，会不知足。"
+                    android:textColor="#605f5f"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="  我开始自嘲自己以前为了合群，为她们付出了这么多，现如今却换来的是她们对我的冷嘲热讽，根本不值得自己堕落去将就她们。"
+                    android:textColor="#292828"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:text="-03-"
+                    android:textColor="#292828"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text=" 后来，我就不和她们五个人呆在一起了。
+
+  我每天去图书馆自习，看了老师推荐的很多优秀的书籍。上课坐在第一排，认真听老师讲课，下课找老师问问题，一起讨论很多文学的东西。我每天在食堂吃，荤素搭配，一点也不贵，吃完晚饭就去操场跑步。
+
+  每天早上都是六点起来，去读书室朗读英文，背专业书。每次12点自习，吃完饭回来，寝室同学才起床。
+
+  晚上我10.40准时睡觉，寝室同学有时候还在外面玩，有时候拿着手机，准备通宵看剧。
+
+  每次当我努力学习时，她们总会说，考试之前熬夜复习就好了，你真蠢。
+
+  有时会遇到冷嘲热讽：为什么不和我们一样呢，每天让自己这么累，寝室就你最特殊，看看你以后比我们好的到哪里去，我妈给我安排了……一毕业就去。
+
+  我只想说，学习非一日之工，我相信需要慢慢沉淀，看书，思考，会让我的眼界和思维会变得开阔。
+"
+                    android:textColor="#605f5f"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="  我不是富二代不是官二代，但我从未看不起自己的父母。我只是普通人，我的父母也只是普通人，他们对我特别好，支持我对未来的所有选择。"
+                    android:textColor="#292828"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:text="-04-"
+                    android:textColor="#292828"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text="  如今我读研了，已经签约了很不错的公司，薪水很高，能够给父母安稳不错的生活。
+
+  昔日的寝室同学有的在公务员岗位上，两点一线，整天抱怨上司。有的已经成了孩子妈，正打算要二胎。
+
+  其实大学里有很多人选择了堕落，看剧、打游戏、整天谈情说爱、聚会而毫不自知。她们喜欢拉上所有人都这样，和她们一起堕落才是最好的合群人。
+
+  到了毕业时，她们找不到工作，就使劲宣传如今就业难，完全不反思自己是否有能力去胜任一份工作。"
+                    android:textColor="#605f5f"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="  其实完全没必要合群，你要学会拒绝，学会为自己考虑。
+"
+                    android:textColor="#ea3131"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="  我就不合群了，你们去堕落吧！"
+                    android:textColor="#ea3131"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="意见反馈"
+                android:textColor="#292828"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

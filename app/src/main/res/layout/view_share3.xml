@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f1ecec"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_share3_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_type1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="创业艰难，该如何坚持下去？"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_type2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:paddingTop="3dp"
+                    android:text="       创业不是闹着玩，不是秀底裤，不是炫耀贴，不是深夜食堂..."
+                    android:textColor="#333"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#000" />
+
+
+            <LinearLayout
+                android:id="@+id/ll_share3_2"
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="我就不合群了，你们去堕落吧！"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:paddingTop="3dp"
+                    android:text="       我为了所谓的合群，违背自己的内心去和她们继续挥霍大学时光以及父母的血汗钱..."
+                    android:textColor="#333"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#000" />
+
+            <LinearLayout
+                android:id="@+id/ll_share3_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:orientation="vertical">
+
+                <TextView
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="如何看待大学的贫困生制度"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="       身边确实有拿着各种最新款数码产品，每天各种快递不断，桌面各种瓶瓶罐罐,依旧心安理得..."
+                    android:textColor="#333"
+                    android:paddingTop="3dp"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#000" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

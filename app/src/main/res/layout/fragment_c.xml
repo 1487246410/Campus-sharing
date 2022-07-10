@@ -1,0 +1,248 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f4f1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#4e9ecc"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+
+            android:id="@+id/c_fanhui"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/a_fanhui" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="如何看待大学的贫困生制度..."
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="如何看待大学的贫困生制度"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:text="某某某      2017-12-30  "
+                android:textColor="#878383"
+                android:textSize="13dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="40dp"
+                    android:text="   身边确实有拿着各种最新款数码产品，每天各种快递不断，桌面各种瓶瓶罐罐，依旧心安理得地占着贫困生名额的人。"
+                    android:textColor="#605f5f"
+                    android:textSize="15dp" />
+
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/pinkunzhidu" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="-01-"
+                    android:textColor="#292828"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text="  进入大学，真的看到了很多以前没看到的黑暗面。
+                    身边确实有拿着各种最新款数码产品，每天各种快递不断，桌面各种瓶瓶罐罐，依旧心安理得地占着贫困生名额的人。辅导员打电话去核实这种形式，在有心人的心里根本只是形式主义。常发生的情况就是，明明家庭条件非常好的人，依旧声泪俱下地说自己家里有多贫困，所谓的“贫困证明”根本不能证明什么，事实就是找关系，什么章都能办下来…………盖章的不管核实，而是依靠远在他方的学校电话去核实，这本身就很荒谬不是么？再想说说另一个方面的问题了，我们学校申报贫困生的要求中强制说明，“贫困生不能报考驾校”这在我看来是非常荒谬的。这个潜台词是不是就是说明，你是贫困生所以你就不能有提升自己的空间和机会了呢？毕竟驾照本身是一个连“享受型”消费都算不上的技能型证明啊！而且在这样一个驾校基本人手一本的年代，驾校说不上提高你的竞争力，但是没有驾照甚至会影响你的竞争力……再说，大学生学驾照确实是有时间上的空闲和政策上的优惠啊！至少我们学校周边的驾校最优惠的时候只要1800……难道就因为贫困这个理由就连学习驾驶这个权利也被剥夺了？？？？"
+                    android:textColor="#605f5f"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:text="-02-"
+                    android:textColor="#292828"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text="  最后，其实我们学校的贫困生选择情况真的很复杂……具体就是负责人确实很上心但事实确实，适得其反……前者拿着最新款的数码产品的人，因为不注重个人打扮就入选贫困生……后者注重个人打扮（这里说的只是干净利落啦……），钱花在刀刃上（报了驾驶）就没有入选贫困生仔细想想后者想要努力提高自己，改变自己真的有错么？
+
+作者：匿名用户
+链接：https://www.zhihu.com/question/64969216/answer/232552443
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"
+                    android:textColor="#605f5f"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:text="-03-"
+                    android:textColor="#292828"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text=" 可是从负责人方面来看，似乎也没有错。你用什么数码产品我都看不到，一眼看过去她就是衣着朴素，声泪俱下确实很有说服力对不对？你说你是贫困生，但你怎么就有钱考驾驶证呢？他或许有责任但是没有义务了解你这个钱是不是兼职打工赚来的……但是责任这种东西，在现实看来向来不能强求，尤其是在基本没有利息相关的情况下……（没办法，事实确实如此……）最后就造成了有钱的成了贫困生真正贫困的反而去努力兼职……
+
+
+"
+                    android:textColor="#605f5f"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:text="-04-"
+                    android:textColor="#292828"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text="  最后，还有所谓的励志奖学金。我不知道其他学校的情况，反正我们学校是要求只有贫困生才能申请，但事实情况是，那些所谓的贫困生学习不上心尚且不说，每天上课开黑，下课寝室瘫只要不挂科就能申请所谓的“励志”奖学金，仔细想想还真的是很“励志”呢，（手动滑稽）科科，反而是有的学生学习努力，成绩优异，就因为不是贫困生反而不能得到奖学金，这算不算道德绑架？反向歧视？怎么说呢，说到底好的政策还是需要一路下来每个流程中每个人的认真负责吧。总之，政策是好的，希望可以得到好的执行，世界会更好吧！
+
+"
+                    android:textColor="#605f5f"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="意见反馈"
+                android:textColor="#292828"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
